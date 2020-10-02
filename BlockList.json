@@ -1,0 +1,17 @@
+{
+  "admin": [],
+  "manager": [
+    "group",
+    "users"
+  ],
+  "user": [
+    "group",
+    "users",
+    "dishes"
+  ],
+  "default": [
+    "group",
+    "users",
+    "dishes"
+  ]
+}

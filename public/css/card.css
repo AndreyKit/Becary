@@ -1,0 +1,16 @@
+.products {
+    margin: 20px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(55, 0, 255, 0.329);
+}
+
+.text {
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c07c44695d514d968d70b5fc4226ad27",
+    "packages": [
+        {
+            "name": "texlab/html",
+            "version": "v0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andy-aa/html.git",
+                "reference": "08b58ab81e44821122985923fd41044654740cbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andy-aa/html/zipball/08b58ab81e44821122985923fd41044654740cbb",
+                "reference": "08b58ab81e44821122985923fd41044654740cbb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5",
+                "squizlabs/php_codesniffer": "3.*",
+                "vimeo/psalm": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TexLab\\Html\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Set of classes for view templates",
+            "time": "2020-08-30T18:12:19+00:00"
+        },
+        {
+            "name": "texlab/mydb",
+            "version": "v0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andy-aa/mydb.git",
+                "reference": "6588dfdd212f7b455642f744e60ce43b83538dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andy-aa/mydb/zipball/6588dfdd212f7b455642f744e60ce43b83538dc7",
+                "reference": "6588dfdd212f7b455642f744e60ce43b83538dc7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mysqli": "*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5",
+                "squizlabs/php_codesniffer": "3.*",
+                "vimeo/psalm": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TexLab\\MyDB\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The lightweight ORM for MySql and MariaDB",
+            "keywords": [
+                "mariadb",
+                "mysql",
+                "orm",
+                "php"
+            ],
+            "time": "2020-08-07T05:49:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
