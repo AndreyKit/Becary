@@ -33,7 +33,7 @@
 }
 
 #asd {
-    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background: linear-gradient(45deg, #a304ff, #C5DDE8);
 }
 
 #addForm label {
@@ -47,13 +47,13 @@
     top: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid yellow;
-    background-color: #7dc1c0;
+    background-color: #ff00ff;
     z-index: 2;
 }
 
 #addForm input[type='text'] {
     /*background-color: lightgray;*/
-    background-color: #6ca7a6;
+    background-color: #ffef08;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -62,7 +62,7 @@
 
 #addForm input[type='submit'] {
     width: 100px;
-    background-color: lightgray;
+    background-color: rgb(8, 255, 62);
     margin: 20px;
 }
 
@@ -80,7 +80,7 @@
 #addForm textarea {
     width: 400px;
     height: 200px;
-    border: 2px solid rgb(240, 183, 183);
+    border: 2px solid rgb(253, 0, 0);
     background-color: #6ca7a6;
     display: block;
     margin: 20px;
@@ -131,4 +131,8 @@
 .collapse navbar-collapse {
     align-items: left;
     justify-content: left;
+}
+
+.Zadnil {
+    background: linear-gradient(45deg, #a304ff, #ff0077);
 }
